@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60084EA41E70F117007020EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EA31E70F117007020EC /* main.m */; };
+		60084EA71E70F117007020EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EA61E70F117007020EC /* AppDelegate.m */; };
+		60084EAD1E70F117007020EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60084EAB1E70F117007020EC /* Main.storyboard */; };
+		60084EAF1E70F117007020EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60084EAE1E70F117007020EC /* Assets.xcassets */; };
+		60084EB21E70F117007020EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60084EB01E70F117007020EC /* LaunchScreen.storyboard */; };
+		60084EBD1E70F118007020EC /* GKStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EBC1E70F118007020EC /* GKStatusBarTests.m */; };
+		60084EC81E70F118007020EC /* GKStatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EC71E70F118007020EC /* GKStatusBarUITests.m */; };
+		60084EDC1E7109E9007020EC /* UINavigationController+GKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EDB1E7109E9007020EC /* UINavigationController+GKCategory.m */; };
+		60084EDF1E710A0C007020EC /* UITabBarController+GKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EDE1E710A0C007020EC /* UITabBarController+GKCategory.m */; };
+		60084EE51E710A94007020EC /* GKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EE41E710A94007020EC /* GKBaseViewController.m */; };
+		60084EEB1E7120E3007020EC /* GKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60084EEA1E7120E3007020EC /* GKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60084EB91E70F118007020EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60084E971E70F117007020EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60084E9E1E70F117007020EC;
+			remoteInfo = GKStatusBar;
+		};
+		60084EC41E70F118007020EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60084E971E70F117007020EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60084E9E1E70F117007020EC;
+			remoteInfo = GKStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60084E9F1E70F117007020EC /* GKStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60084EA31E70F117007020EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60084EA51E70F117007020EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60084EA61E70F117007020EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60084EAC1E70F117007020EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60084EAE1E70F117007020EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60084EB11E70F117007020EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60084EB31E70F117007020EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60084EB81E70F118007020EC /* GKStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60084EBC1E70F118007020EC /* GKStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKStatusBarTests.m; sourceTree = "<group>"; };
+		60084EBE1E70F118007020EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60084EC31E70F118007020EC /* GKStatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKStatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60084EC71E70F118007020EC /* GKStatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKStatusBarUITests.m; sourceTree = "<group>"; };
+		60084EC91E70F118007020EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60084EDA1E7109E9007020EC /* UINavigationController+GKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GKCategory.h"; sourceTree = "<group>"; };
+		60084EDB1E7109E9007020EC /* UINavigationController+GKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+GKCategory.m"; sourceTree = "<group>"; };
+		60084EDD1E710A0C007020EC /* UITabBarController+GKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+GKCategory.h"; sourceTree = "<group>"; };
+		60084EDE1E710A0C007020EC /* UITabBarController+GKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+GKCategory.m"; sourceTree = "<group>"; };
+		60084EE31E710A94007020EC /* GKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKBaseViewController.h; sourceTree = "<group>"; };
+		60084EE41E710A94007020EC /* GKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKBaseViewController.m; sourceTree = "<group>"; };
+		60084EE91E7120E3007020EC /* GKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKViewController.h; sourceTree = "<group>"; };
+		60084EEA1E7120E3007020EC /* GKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60084E9C1E70F117007020EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084EB51E70F118007020EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084EC01E70F118007020EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60084E961E70F117007020EC = {
+			isa = PBXGroup;
+			children = (
+				60084EA11E70F117007020EC /* GKStatusBar */,
+				60084EBB1E70F118007020EC /* GKStatusBarTests */,
+				60084EC61E70F118007020EC /* GKStatusBarUITests */,
+				60084EA01E70F117007020EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60084EA01E70F117007020EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60084E9F1E70F117007020EC /* GKStatusBar.app */,
+				60084EB81E70F118007020EC /* GKStatusBarTests.xctest */,
+				60084EC31E70F118007020EC /* GKStatusBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60084EA11E70F117007020EC /* GKStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				60084EA51E70F117007020EC /* AppDelegate.h */,
+				60084EA61E70F117007020EC /* AppDelegate.m */,
+				60084ED91E7109D4007020EC /* Category */,
+				60084ED81E7109BA007020EC /* Test */,
+				60084EA21E70F117007020EC /* Supporting Files */,
+			);
+			path = GKStatusBar;
+			sourceTree = "<group>";
+		};
+		60084EA21E70F117007020EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60084EAB1E70F117007020EC /* Main.storyboard */,
+				60084EAE1E70F117007020EC /* Assets.xcassets */,
+				60084EB01E70F117007020EC /* LaunchScreen.storyboard */,
+				60084EB31E70F117007020EC /* Info.plist */,
+				60084EA31E70F117007020EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60084EBB1E70F118007020EC /* GKStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				60084EBC1E70F118007020EC /* GKStatusBarTests.m */,
+				60084EBE1E70F118007020EC /* Info.plist */,
+			);
+			path = GKStatusBarTests;
+			sourceTree = "<group>";
+		};
+		60084EC61E70F118007020EC /* GKStatusBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60084EC71E70F118007020EC /* GKStatusBarUITests.m */,
+				60084EC91E70F118007020EC /* Info.plist */,
+			);
+			path = GKStatusBarUITests;
+			sourceTree = "<group>";
+		};
+		60084ED81E7109BA007020EC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				60084EE91E7120E3007020EC /* GKViewController.h */,
+				60084EEA1E7120E3007020EC /* GKViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		60084ED91E7109D4007020EC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				60084EDA1E7109E9007020EC /* UINavigationController+GKCategory.h */,
+				60084EDB1E7109E9007020EC /* UINavigationController+GKCategory.m */,
+				60084EDD1E710A0C007020EC /* UITabBarController+GKCategory.h */,
+				60084EDE1E710A0C007020EC /* UITabBarController+GKCategory.m */,
+				60084EE31E710A94007020EC /* GKBaseViewController.h */,
+				60084EE41E710A94007020EC /* GKBaseViewController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60084E9E1E70F117007020EC /* GKStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60084ECC1E70F118007020EC /* Build configuration list for PBXNativeTarget "GKStatusBar" */;
+			buildPhases = (
+				60084E9B1E70F117007020EC /* Sources */,
+				60084E9C1E70F117007020EC /* Frameworks */,
+				60084E9D1E70F117007020EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKStatusBar;
+			productName = GKStatusBar;
+			productReference = 60084E9F1E70F117007020EC /* GKStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60084EB71E70F118007020EC /* GKStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60084ECF1E70F118007020EC /* Build configuration list for PBXNativeTarget "GKStatusBarTests" */;
+			buildPhases = (
+				60084EB41E70F118007020EC /* Sources */,
+				60084EB51E70F118007020EC /* Frameworks */,
+				60084EB61E70F118007020EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60084EBA1E70F118007020EC /* PBXTargetDependency */,
+			);
+			name = GKStatusBarTests;
+			productName = GKStatusBarTests;
+			productReference = 60084EB81E70F118007020EC /* GKStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60084EC21E70F118007020EC /* GKStatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60084ED21E70F118007020EC /* Build configuration list for PBXNativeTarget "GKStatusBarUITests" */;
+			buildPhases = (
+				60084EBF1E70F118007020EC /* Sources */,
+				60084EC01E70F118007020EC /* Frameworks */,
+				60084EC11E70F118007020EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60084EC51E70F118007020EC /* PBXTargetDependency */,
+			);
+			name = GKStatusBarUITests;
+			productName = GKStatusBarUITests;
+			productReference = 60084EC31E70F118007020EC /* GKStatusBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60084E971E70F117007020EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "高坤";
+				TargetAttributes = {
+					60084E9E1E70F117007020EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L2QPTUE76B;
+						ProvisioningStyle = Automatic;
+					};
+					60084EB71E70F118007020EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L2QPTUE76B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60084E9E1E70F117007020EC;
+					};
+					60084EC21E70F118007020EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L2QPTUE76B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60084E9E1E70F117007020EC;
+					};
+				};
+			};
+			buildConfigurationList = 60084E9A1E70F117007020EC /* Build configuration list for PBXProject "GKStatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60084E961E70F117007020EC;
+			productRefGroup = 60084EA01E70F117007020EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60084E9E1E70F117007020EC /* GKStatusBar */,
+				60084EB71E70F118007020EC /* GKStatusBarTests */,
+				60084EC21E70F118007020EC /* GKStatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60084E9D1E70F117007020EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084EB21E70F117007020EC /* LaunchScreen.storyboard in Resources */,
+				60084EAF1E70F117007020EC /* Assets.xcassets in Resources */,
+				60084EAD1E70F117007020EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084EB61E70F118007020EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084EC11E70F118007020EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60084E9B1E70F117007020EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084EE51E710A94007020EC /* GKBaseViewController.m in Sources */,
+				60084EEB1E7120E3007020EC /* GKViewController.m in Sources */,
+				60084EDF1E710A0C007020EC /* UITabBarController+GKCategory.m in Sources */,
+				60084EDC1E7109E9007020EC /* UINavigationController+GKCategory.m in Sources */,
+				60084EA71E70F117007020EC /* AppDelegate.m in Sources */,
+				60084EA41E70F117007020EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084EB41E70F118007020EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084EBD1E70F118007020EC /* GKStatusBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60084EBF1E70F118007020EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60084EC81E70F118007020EC /* GKStatusBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60084EBA1E70F118007020EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60084E9E1E70F117007020EC /* GKStatusBar */;
+			targetProxy = 60084EB91E70F118007020EC /* PBXContainerItemProxy */;
+		};
+		60084EC51E70F118007020EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60084E9E1E70F117007020EC /* GKStatusBar */;
+			targetProxy = 60084EC41E70F118007020EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60084EAB1E70F117007020EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60084EAC1E70F117007020EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60084EB01E70F117007020EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60084EB11E70F117007020EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60084ECA1E70F118007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60084ECB1E70F118007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60084ECD1E70F118007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKStatusBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60084ECE1E70F118007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKStatusBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKStatusBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60084ED01E70F118007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKStatusBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKStatusBar.app/GKStatusBar";
+			};
+			name = Debug;
+		};
+		60084ED11E70F118007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKStatusBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKStatusBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKStatusBar.app/GKStatusBar";
+			};
+			name = Release;
+		};
+		60084ED31E70F118007020EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKStatusBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKStatusBar;
+			};
+			name = Debug;
+		};
+		60084ED41E70F118007020EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L2QPTUE76B;
+				INFOPLIST_FILE = GKStatusBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykj.gk.GKStatusBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKStatusBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60084E9A1E70F117007020EC /* Build configuration list for PBXProject "GKStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084ECA1E70F118007020EC /* Debug */,
+				60084ECB1E70F118007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60084ECC1E70F118007020EC /* Build configuration list for PBXNativeTarget "GKStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084ECD1E70F118007020EC /* Debug */,
+				60084ECE1E70F118007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60084ECF1E70F118007020EC /* Build configuration list for PBXNativeTarget "GKStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084ED01E70F118007020EC /* Debug */,
+				60084ED11E70F118007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60084ED21E70F118007020EC /* Build configuration list for PBXNativeTarget "GKStatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60084ED31E70F118007020EC /* Debug */,
+				60084ED41E70F118007020EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60084E971E70F117007020EC /* Project object */;
+}
